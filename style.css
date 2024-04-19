@@ -306,19 +306,41 @@ header {
 }
 
 .projeto-3:hover {
-  box-shadow: 0 1px 4px #3c96ed;
+  box-shadow: 0 1px 4px #181818;
 }
 
 .projeto-3 a {
+  border: 1px solid #181818;
+  color: #181818;
+}
+
+.projeto-3 a:hover {
+  background-color: #181818;
+}
+
+.projeto-4:hover {
+  box-shadow: 0 1px 4px #3c96ed;
+}
+
+.projeto-4 a {
   border: 1px solid #3c96ed;
   color: #3c96ed;
 }
 
-.projeto-3 a:hover {
+.projeto-4 a:hover {
   background-color: #3c96ed;
 }
 
+.external-link {
+  border: 0!important;
+  text-decoration: none!important; 
+  color: black!important;
+}
 
+.external-link:hover {
+  text-decoration: underline!important;
+  background-color: transparent!important;
+}
 
 .contact {
   width: 100%;
