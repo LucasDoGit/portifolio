@@ -344,6 +344,19 @@ header {
   background-color: #30A0FF;
 }
 
+.projeto-6:hover {
+  box-shadow: 0 1px 4px #F0A81A;
+}
+
+.projeto-6 a {
+  border: 1px solid #F0A81A;
+  color: #F0A81A;
+}
+
+.projeto-6 a:hover {
+  background-color: #F0A81A;
+}
+
 .external-link {
   border: 0!important;
   text-decoration: none!important; 
