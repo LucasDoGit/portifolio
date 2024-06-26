@@ -357,6 +357,19 @@ header {
   background-color: #F0A81A;
 }
 
+.projeto-7:hover {
+  box-shadow: 0 1px 4px #E9C340;
+}
+
+.projeto-7 a {
+  border: 1px solid #E9C340;
+  color: #E9C340;
+}
+
+.projeto-7 a:hover {
+  background-color: #E9C340;
+}
+
 .external-link {
   border: 0!important;
   text-decoration: none!important; 
