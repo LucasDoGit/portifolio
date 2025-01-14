@@ -84,7 +84,7 @@ header {
 }
 
 .main img {
-  width: 450px;
+  width: 720px;
 }
 
 .main h1 {
@@ -280,29 +280,29 @@ header {
 }
 
 .projeto-1:hover {
-  box-shadow: 0 1px 4px #D94E9A;
+  box-shadow: 0 1px 4px #310F48;
 }
 
 .projeto-1 a {
-  border: 1px solid #D94E9A;
-  color: #D94E9A;
+  border: 1px solid #310F48;
+  color: #310F48;
 }
 
 .projeto-1 a:hover {
-  background-color: #D94E9A;
+  background-color: #310F48;
 }
 
 .projeto-2:hover {
-  box-shadow: 0 1px 4px #FF3131;
+  box-shadow: 0 1px 4px #3c96ed;
 }
 
 .projeto-2 a {
-  border: 1px solid #FF3131;
-  color: #FF3131;
+  border: 1px solid #3c96ed;
+  color: #3c96ed;
 }
 
 .projeto-2 a:hover {
-  background-color: #FF3131;
+  background-color: #3c96ed;
 }
 
 .projeto-3:hover {
@@ -319,16 +319,16 @@ header {
 }
 
 .projeto-4:hover {
-  box-shadow: 0 1px 4px #3c96ed;
+  box-shadow: 0 1px 4px #ff3131;
 }
 
 .projeto-4 a {
-  border: 1px solid #3c96ed;
-  color: #3c96ed;
+  border: 1px solid #ff3131;
+  color: #ff3131;
 }
 
 .projeto-4 a:hover {
-  background-color: #3c96ed;
+  background-color: #ff3131;
 }
 
 .projeto-5:hover {
@@ -345,16 +345,16 @@ header {
 }
 
 .projeto-6:hover {
-  box-shadow: 0 1px 4px #F0A81A;
+  box-shadow: 0 1px 4px #FF3131;
 }
 
 .projeto-6 a {
-  border: 1px solid #F0A81A;
-  color: #F0A81A;
+  border: 1px solid #FF3131;
+  color: #FF3131;
 }
 
 .projeto-6 a:hover {
-  background-color: #F0A81A;
+  background-color: #FF3131;
 }
 
 .projeto-7:hover {
@@ -367,6 +367,19 @@ header {
 }
 
 .projeto-7 a:hover {
+  background-color: #E9C340;
+}
+
+.projeto-8:hover {
+  box-shadow: 0 1px 4px #E9C340;
+}
+
+.projeto-8 a {
+  border: 1px solid #E9C340;
+  color: #E9C340;
+}
+
+.projeto-8 a:hover {
   background-color: #E9C340;
 }
 
@@ -493,7 +506,8 @@ footer p {
   }
 
   .main img {
-    width: 300px;
+    margin-top: 3rem;
+    width: 520px;
   }
 
   .about {
