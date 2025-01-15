@@ -9,8 +9,9 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-html{
-  scroll-behavior: smooth; /* deixa a navegação mais suave */
+html {
+  scroll-behavior: smooth;
+  /* deixa a navegação mais suave */
 }
 
 header {
@@ -127,7 +128,8 @@ header {
 }
 
 .call-to-action:hover {
-  transform: scale(1.1); /* 110% */
+  transform: scale(1.1);
+  /* 110% */
   background-color: white;
   color: #181818;
 }
@@ -198,7 +200,7 @@ header {
   padding: 10px;
   border-radius: 4px;
   border: 1px solid #18181818;
-  box-shadow: 0 1px 4px rgba(0,0,0,0.075);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.075);
   transition: .6s;
   margin-bottom: 1rem;
 }
@@ -266,7 +268,7 @@ header {
   text-decoration: none;
   font-size: 16px;
   color: black;
-  padding: 5px 10px; 
+  padding: 5px 10px;
   border-radius: 3px;
   background-color: transparent;
   border: 1px solid black;
@@ -331,67 +333,15 @@ header {
   background-color: #ff3131;
 }
 
-.projeto-5:hover {
-  box-shadow: 0 1px 4px #30A0FF;
-}
-
-.projeto-5 a {
-  border: 1px solid #30A0FF;
-  color: #30A0FF;
-}
-
-.projeto-5 a:hover {
-  background-color: #30A0FF;
-}
-
-.projeto-6:hover {
-  box-shadow: 0 1px 4px #FF3131;
-}
-
-.projeto-6 a {
-  border: 1px solid #FF3131;
-  color: #FF3131;
-}
-
-.projeto-6 a:hover {
-  background-color: #FF3131;
-}
-
-.projeto-7:hover {
-  box-shadow: 0 1px 4px #E9C340;
-}
-
-.projeto-7 a {
-  border: 1px solid #E9C340;
-  color: #E9C340;
-}
-
-.projeto-7 a:hover {
-  background-color: #E9C340;
-}
-
-.projeto-8:hover {
-  box-shadow: 0 1px 4px #E9C340;
-}
-
-.projeto-8 a {
-  border: 1px solid #E9C340;
-  color: #E9C340;
-}
-
-.projeto-8 a:hover {
-  background-color: #E9C340;
-}
-
 .external-link {
-  border: 0!important;
-  text-decoration: none!important; 
-  color: black!important;
+  border: 0 !important;
+  text-decoration: none !important;
+  color: black !important;
 }
 
 .external-link:hover {
-  text-decoration: underline!important;
-  background-color: transparent!important;
+  text-decoration: underline !important;
+  background-color: transparent !important;
 }
 
 .contact {
@@ -423,6 +373,7 @@ header {
   height: 80px;
   margin: 0 0.5rem;
   border-radius: 50%;
+  border: none;
   cursor: pointer;
   font-size: 2.5rem;
   text-decoration: none;
@@ -443,6 +394,14 @@ header {
 
 .icon-linkedin {
   background-color: #006599;
+}
+
+.icon-whatsapp {
+  background-color: #25d366;
+}
+
+.icon-email {
+  background-color: #666666;
 }
 
 footer {
@@ -546,40 +505,51 @@ footer p {
 }
 
 @keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 @keyframes typing {
   from {
     width: 0;
   }
+
   to {
     width: 100%;
   }
 }
 
 @keyframes blink-caret {
-  from, to {
+
+  from,
+  to {
     border-color: transparent;
   }
+
   50% {
     border-color: white;
   }
 }
 
 @keyframes blink-caret-hide {
-  from, to {
-    opacity: 1; /* Define a opacidade inicial e final */
+
+  from,
+  to {
+    opacity: 1;
+    /* Define a opacidade inicial e final */
   }
+
   50% {
-    opacity: 0; /* Define a opacidade na metade da animação */
+    opacity: 0;
+    /* Define a opacidade na metade da animação */
   }
 }

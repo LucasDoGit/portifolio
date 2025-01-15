@@ -13,6 +13,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
     rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <title>Portifolio - Lucas Timoteo</title>
 </head>
 
@@ -209,15 +210,18 @@
     <h2>Contato</h2>
 
     <div class="social-icons">
-      <a class="social-icon icon-github" href="https://github.com/LucasDoGit">
+      <a class="social-icon icon-github" href="https://github.com/LucasDoGit" target="_blank">
         <i class="fa fa-github"></i>
       </a>
-      <a class="social-icon icon-instagram" href="https://www.instagram.com/lusca_cwb/">
-        <i class="fa fa-instagram"></i>
-      </a>
-      <a class="social-icon icon-linkedin" href="https://www.linkedin.com/in/dev-lucas-timoteo/">
+      <a class="social-icon icon-linkedin" href="https://www.linkedin.com/in/dev-lucas-timoteo/" target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
+      <a class="social-icon icon-whatsapp" href="https://api.whatsapp.com/send/?phone=%2B5541996546683" target="_blank">
+        <i class="fa fa-phone-square" aria-hidden="true"></i>
+      </a>
+      <button class="social-icon icon-email" id="emailButton" href="https://www.linkedin.com/in/dev-lucas-timoteo/">
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+      </button>
     </div>
 
   </section>
@@ -229,4 +233,22 @@
   </footer>
 </body>
 
+  <script>
+    document.getElementById("emailButton").addEventListener('click', () => {
+      const textarea = document.createElement('textarea');
+      textarea.value = "lucas.saiz19@gmail.com";
+      document.body.appendChild(textarea);
+      textarea.select();
+      document.execCommand('copy');
+      document.body.removeChild(textarea);
+      
+      Swal.fire({
+        title: 'E-mail copiado!',
+        text: 'O endereço de e-mail foi copiado para a sua área de transferência.',
+        icon: 'success',
+        confirmButtonText: 'Ok'
+      });
+    })
+
+  </script>
 </html>
