@@ -85,7 +85,7 @@ header {
 }
 
 .main img {
-  width: 648px;
+  width: 520px;
 }
 
 .main h1 {
@@ -360,8 +360,9 @@ header {
   margin-bottom: 40px;
 }
 
-.social-icons {
-  display: flex;
+.icons-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 
 .social-icon {
@@ -466,7 +467,12 @@ footer p {
 
   .main img {
     margin-top: 3rem;
-    width: 520px;
+    width: 320px;
+  }
+
+  .icons-container {
+    gap: 10px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .about {
@@ -501,6 +507,13 @@ footer p {
 
   footer p {
     margin-left: 0px;
+  }
+}
+
+@media (max-width: 360px) {
+  .main img {
+    margin-top: 3rem;
+    width: 240px;
   }
 }
 
