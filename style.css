@@ -295,16 +295,16 @@ header {
 }
 
 .projeto-2:hover {
-  box-shadow: 0 1px 4px #3c96ed;
+  box-shadow: 0 1px 4px #FF3f4b;
 }
 
 .projeto-2 a {
-  border: 1px solid #3c96ed;
-  color: #3c96ed;
+  border: 1px solid #FF3f4b;
+  color: #FF3f4b;
 }
 
 .projeto-2 a:hover {
-  background-color: #3c96ed;
+  background-color: #FF3f4b;
 }
 
 .projeto-3:hover {
